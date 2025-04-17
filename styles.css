@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background-image: url(./mike-c-valdivia-kZokA2VTKn4-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#clock {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 8rem;
+  color: antiquewhite;
+  backdrop-filter: blur(5px);
+  background-color: hsla(0, 0%, 100%, 0.1);
+  width: 100%;
+  text-align: center;
+}
